@@ -19,6 +19,10 @@ class User {
         this.username = username;
     }
 
+    set seDateUpadated(date){
+        this.dateUpdated = date;
+    }
+
 }
 
 module.exports = User
